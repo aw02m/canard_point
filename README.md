@@ -1,3 +1,5 @@
+clw_version is not work. use kuz_version.
+
 # canard_point
 Python script for finding Maximal canard parameter with the Kuehn's "First Lyapunov Coefficient method".
 
