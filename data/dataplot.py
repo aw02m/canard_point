@@ -62,6 +62,12 @@ ax.plot(x_list, y_list, color="BLACK", linewidth=2)
 (x_list, y_list) = setdata("canard_bif_data", 1, 0)
 y_list = [1 / i for i in y_list]
 ax.plot(x_list, y_list, color="BLACK", linewidth=2)
+(x_list, y_list) = setdata("canard_bif_data", 2, 0)
+y_list = [1 / i for i in y_list]
+ax.plot(x_list, y_list, color="darkgray", linewidth=2)
+(x_list, y_list) = setdata("canard_bif_data", 3, 0)
+y_list = [1 / i for i in y_list]
+ax.plot(x_list, y_list, color="darkgray", linewidth=2)
 
 # 出力
 fig.subplots_adjust(left=0.175, right=0.94, bottom=0.135, top=0.975)
