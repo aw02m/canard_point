@@ -56,7 +56,7 @@ ax.set_ylabel(r"$\frac{1}{\epsilon} \longrightarrow $", fontsize=16)
 ax.grid(c="gainsboro", zorder=2)
 
 # データ
-(x_list, y_list) = setdata("out", 1, 0)
+(x_list, y_list) = setdata("bifdata", 1, 0)
 y_list = [1 / i for i in y_list]
 ax.plot(x_list, y_list, color="BLACK", linewidth=2)
 (x_list, y_list) = setdata("canard_bif_data", 1, 0)
