@@ -188,7 +188,7 @@ for iter in tqdm.tqdm(range(len(outlist))):
 
     f.write("{:.16f}".format(p0[eps_index]))
     f.write(" ")
-    f.write("{:.16f}".format(canard_point[eps_index]))
+    f.write("{:.16f}".format(canard_point[0]))
     f.write(" ")
     f.write("{:.16f}".format(canard_point[0] - p0[eps_index] ** 1.5))
     f.write(" ")
